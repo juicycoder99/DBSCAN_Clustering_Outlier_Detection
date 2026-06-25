@@ -1,11 +1,10 @@
-# Data Mining (CS405/CS505) — Assignment 4: DBSCAN
+# DBSCAN Clustering and Outlier Detection
 
-Coursework for **Data Mining (CS405/CS505)**, Bishop's University.
+Density-based clustering with DBSCAN: synthetic concentric-ring separation, epsilon tuning from the
+k-distance graph, and robust outlier detection on the Iris dataset.
 
-Density-based clustering with DBSCAN: a synthetic two-circles case where k-means fails, choosing
-`eps` from the k-distance graph (Schubert's heuristic), and using DBSCAN for outlier detection on
-the Iris dataset. The full solution, answering all eleven questions, is in
-[`Assignment4_DBSCAN_Outliers.ipynb`](Assignment4_DBSCAN_Outliers.ipynb).
+The full implementation and analysis, covering eleven exercises, is in
+[`dbscan_clustering_outliers.ipynb`](dbscan_clustering_outliers.ipynb).
 
 ## Topics covered
 
@@ -20,12 +19,12 @@ the Iris dataset. The full solution, answering all eleven questions, is in
 
 ```bash
 pip install numpy matplotlib scikit-learn
-jupyter notebook Assignment4_DBSCAN_Outliers.ipynb
+jupyter notebook dbscan_clustering_outliers.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment4_DBSCAN_Outliers.ipynb` | Full solution with answers to all 11 questions |
-| `Assignment 4.pdf` | Assignment description |
+| `dbscan_clustering_outliers.ipynb` | Full implementation and analysis covering all 11 exercises |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
